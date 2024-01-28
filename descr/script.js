@@ -113,7 +113,7 @@ class DescriptiveStatistics {
 
   calculateCoefficientOfVariation() {
     const mean = this.calculateMean();
-    const standardDeviation = this.calculateStandardDeviation();
+    const standardDeviation = this.calculateStandardDeviation()
     return (standardDeviation / mean) * 100;
   }
 }
